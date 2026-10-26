@@ -11,7 +11,18 @@ dependencies:
     sdk: flutter
   webview_flutter: ^4.10.0
 
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon/icon.png
+  adaptive_icon_background: "#0A4A40"
+  adaptive_icon_foreground: assets/icon/icon_fg.png
+
 flutter:
   uses-material-design: true
   assets:
     - assets/www/index.html
+    - assets/icon/icon.png

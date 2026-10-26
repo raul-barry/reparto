@@ -36,6 +36,9 @@ jobs:
 
       - run: flutter pub get
 
+      - name: Generar icono de la app
+        run: dart run flutter_launcher_icons
+
       - run: flutter build apk --release
 
       - name: Guardar APK como archivo de la ejecucion
